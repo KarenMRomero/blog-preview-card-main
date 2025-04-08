@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/your-solution-link](https://www.frontendmentor.io/solutions/your-solution-link)
-- Live Site URL: [https://yourusername.github.io/project-name](https://yourusername.github.io/project-name)
+- Live Site URL: [https://karenmromero.github.io/blog-preview-card-main/](https://karenmromero.github.io/blog-preview-card-main/)
 
 ## Author
 
