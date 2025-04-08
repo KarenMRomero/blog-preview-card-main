@@ -25,7 +25,7 @@ p {
   height: auto;
   max-width: calc(100% - 48px);
   margin: 24px auto;
-  box-shadow: 10px 10px 0px 2px rgb(0, 0, 0);
+  box-shadow: 8px 8px 0px 1px rgb(0, 0, 0);
   transition: box-shadow 0.2s ease, color 0.2s ease;
   cursor: pointer;
 }
@@ -33,7 +33,7 @@ p {
   transition: color 0.2s ease;
 }
 .card:hover {
-  box-shadow: 12px 12px 0px 4px rgb(0, 0, 0);
+  box-shadow: 10px 10px 0px 1px rgb(0, 0, 0);
 }
 .card:hover .title {
   color: #f4d04e;
@@ -58,7 +58,7 @@ img {
 .status {
   background-color: #f4d04e;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 600;
   width: -moz-fit-content;
   width: fit-content;
   padding: 4px 12px;
