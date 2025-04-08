@@ -18,14 +18,14 @@ p {
 
 .card {
   background-color: white;
-  padding: 24px;
-  border-radius: 20px;
-  border: 1px solid #000000;
-  width: 20.625rem;
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+  border: 0.0625rem solid #000000;
+  width: 330px;
   height: auto;
-  max-width: calc(100% - 48px);
-  margin: 24px auto;
-  box-shadow: 8px 8px 0px 1px rgb(0, 0, 0);
+  max-width: calc(100% - 3rem);
+  margin: 1.5rem auto;
+  box-shadow: 0.5rem 0.5rem 0rem 0.0625rem rgb(0, 0, 0);
   transition: box-shadow 0.2s ease, color 0.2s ease;
   cursor: pointer;
 }
@@ -33,7 +33,7 @@ p {
   transition: color 0.2s ease;
 }
 .card:hover {
-  box-shadow: 10px 10px 0px 1px rgb(0, 0, 0);
+  box-shadow: 0.625rem 0.625rem 0rem 0.0625rem rgb(0, 0, 0);
 }
 .card:hover .title {
   color: #f4d04e;
@@ -42,49 +42,48 @@ p {
 img {
   width: 100%;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   position: relative;
 }
 
 .img-container {
   width: 100%;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   position: relative;
-  margin-bottom: 24px;
-  border-radius: 10px;
+  margin-bottom: 1.5rem;
 }
 
-.status {
+.topic {
   background-color: #f4d04e;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 600;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 4px 12px;
-  border-radius: 4px;
-  height: 20px;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  line-height: 1.25rem;
   align-content: center;
 }
 
 .date {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 600;
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 800;
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
 }
 
 .description {
-  font-size: 14px;
+  font-size: 1.125rem;
   font-weight: 500;
   color: #6b6b6b;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .author {
@@ -92,20 +91,20 @@ img {
   align-items: center;
 }
 .author .photo {
-  margin-right: 12px;
-  width: 32px;
+  margin-right: 0.75rem;
+  width: 2rem;
 }
 .author .name {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 800;
 }
 
 .attribution {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 600;
   color: #6b6b6b;
-  margin-top: 12px;
-  position: absolute;
+  margin-top: auto;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
